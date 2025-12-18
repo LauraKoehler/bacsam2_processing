@@ -1,0 +1,44 @@
+campaign:
+  name: "BACSAM2"
+
+paths:
+  xml_file: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/dms_download_templates/2024_DMS_BacsamII.xml"
+  variables: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/met_P6_varibles_bacsam2.yaml"
+  calibration: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/calibration_bacsam2.yaml"
+  fiveholeprobe: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/fiveholeprobe_parameters_bacsam2.yaml"
+  processing_log_file: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/"
+  outdir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Prozessierung"
+  processed_variables: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/bacsam2_final_variable_attributes.yaml"
+
+metadata:
+  author: "Laura Köhler"
+  institution: "Alfred-Wegener-Institut"
+  contact: "laura.koehler@awi.de"
+  date: "2025-12-02"
+  version: "v1.0.0"
+
+flights:
+  2: 
+    date: 2024-04-10
+    data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF02_20240410/"
+#    data_dir: "/Users/lakoeh001/AWI/Campaigns/2022BACSAMI/Testdaten/"
+    prefix: "20240410_P6_02_"
+#    prefix: "20221003_P6_02_"
+
+  5: 
+    date: 2024-04-15
+    data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF05_20240415/"
+    prefix: "20240415_P6_05_"
+    start: 2024-04-15T09:03:46
+    stop: 2024-04-15T13:41:13
+    segments:
+      1: 2024-04-15T09:10:00
+      2: 2024-04-15T09:20:00
+      calibration: [1,5]
+
+  10: 
+    date: 2024-04-26
+    data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF10_20240426/"
+    prefix: "20240426_P6_10_"
+
+calibration_segments:
