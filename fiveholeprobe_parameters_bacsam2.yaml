@@ -1,0 +1,43 @@
+noseboom:
+  qb:
+    a0: 475.7
+    a1_qb: 1
+    a1_qc: -0.193
+    a1_ps: 0
+    a1_qratio: 0
+
+  beta:
+    a0: -2.872
+    a1_qb: 0
+    a1_qc: 0
+    a1_ps: 0
+    a1_qratio: 10.773
+
+  qc:
+    a0: 0
+    a1_qb: 0
+    a1_qc: 1.052
+    a1_ps: 0
+    a1_qratio: 0
+
+  alpha:
+    a0: 0.678
+    a1_qb: 0
+    a1_qc: 0
+    a1_ps: 0
+    a1_qratio: 10.773
+
+  ps:
+    a0: 0
+    a1_qb: 0
+    a1_qc: -1.0
+    a1_ps: 1
+    a1_qratio: 0
+
+
+tbird:
+
+
+flights:
+  1:
+  
