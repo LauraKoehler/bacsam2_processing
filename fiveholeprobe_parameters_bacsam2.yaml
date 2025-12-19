@@ -36,8 +36,38 @@ noseboom:
 
 
 tbird:
+  qb:
+    a0: 475.7
+    a1_qb: 1
+    a1_qc: -0.193
+    a1_ps: 0
+    a1_qratio: 0
 
+  beta:
+    a0: -0.34
+    a1_qb: 0
+    a1_qc: 0
+    a1_ps: 0
+    a1_qratio: 10.0134
 
-flights:
-  1:
+  qc:
+    a0: 0.032
+    a1_qb: 0
+    a1_qc: 1.146
+    a1_ps: 0
+    a1_qratio: 0
+
+  alpha:
+    a0: -0.5
+    a1_qb: 0
+    a1_qc: 0
+    a1_ps: 0
+    a1_qratio: 10.0134
+
+  ps:
+    a0: 0
+    a1_qb: 0
+    a1_qc: -1.0
+    a1_ps: 1
+    a1_qratio: 0
   
