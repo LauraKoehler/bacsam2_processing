@@ -22,6 +22,7 @@ flights:
     date: 2024-04-07
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF01_20240407/"
     prefix: "20240407_P6_01_"
+    tbird: True
     start: 2024-04-07T08:46:00
     stop: 2024-04-07T12:56:00
     start_tbird: nat
@@ -72,6 +73,7 @@ flights:
     date: 2024-04-10
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF02_20240410/"
     prefix: "20240410_P6_02_"
+    tbird: True
     start: 2024-04-10T08:28:00
     stop: 2024-04-10T12:52:00
     start_tbird: nat
@@ -108,6 +110,7 @@ flights:
     date: 2024-04-11
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF03_20240411/"
     prefix: "20240411_P6_03_"
+    tbird: True
     start: 2024-04-11T08:34:30
     stop: 2024-04-11T12:23:00
     start_tbird: 2024-04-11T08:47:00
@@ -139,11 +142,13 @@ flights:
     date: 2024-04-13
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF04_20240413/"
     prefix: "20240413_P6_04_"
+    tbird: True
 
   40: 
     date: 2024-04-13
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF04a_20240413/"
     prefix: "20240414_P6_04a_"
+    tbird: True
     start: 2024-04-13T06:11:00
     stop: 2024-04-13T08:38:00
     start_tbird: nat
@@ -156,6 +161,7 @@ flights:
     date: 2024-04-13
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF04b_20240413/"
     prefix: "20240413_P6_04b_"
+    tbird: True
     start: 2024-04-13T09:45:00
     stop: 2024-04-13T13:45:00
     start_tbird: 2024-04-13T09:53:00
@@ -184,6 +190,7 @@ flights:
     date: 2024-04-13
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF04c_20240413/"
     prefix: "20240413_P6_04c_"
+    tbird: True
     start: 2024-04-13T14:29:00
     stop: 2024-04-13T16:45:00
     start_tbird: nat
@@ -196,6 +203,7 @@ flights:
     date: 2024-04-15
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF05_20240415/"
     prefix: "20240415_P6_05_"
+    tbird: True
     start: 2024-04-15T09:03:46
     stop: 2024-04-15T13:41:13
     start_tbird: 2024-04-15T09:53:10
@@ -203,7 +211,7 @@ flights:
     segments:
       1: 2024-04-15T09:11:00
       2: 2024-04-15T09:25:00
-      3: 2024-04-15T09:30:00,
+      3: 2024-04-15T09:30:00
       4: 2024-04-15T09:55:00
       5: 2024-04-15T10:00:00
       6: 2024-04-15T10:12:40
@@ -217,17 +225,12 @@ flights:
       14: 2024-04-15T12:43:00
       15: 2024-04-15T12:51:00
       16: 2024-04-15T13:27:00
-    calibration:
-      out1:
-        start: 2024-04-15T10:15:00
-        stop: 2024-04-15T10:47:00
-      ret1:
-        start: 2024-04-15T12:12:30 
-        stop: 2024-04-15T12:43:00
+
   6: 
     date: 2024-04-17
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF06_20240417/"
     prefix: "20240417_P6_06_"
+    tbird: True
     start: 2024-04-17T12:41:00
     stop: 2024-04-17T17:20:00
     start_tbird: 2024-04-17T13:36:00
@@ -259,6 +262,7 @@ flights:
     date: 2024-04-23
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF07_20240423/"
     prefix: "20240423_P6_07_"
+    tbird: True
     start: 2024-04-23T08:27:00
     stop: 2024-04-23T12:54:00
     start_tbird: 2024-04-23T09:17:00
@@ -289,6 +293,7 @@ flights:
     date: 2024-04-24
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF08_20240424/"
     prefix: "20240424_P6_08_"
+    tbird: True
     start: 2024-04-24T08:26:00
     stop: 2024-04-24T12:56:00
     start_tbird: 2024-04-24T09:31:00
@@ -337,6 +342,7 @@ flights:
     date: 2024-04-25
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF09_20240425/"
     prefix: "20240425_P6_09_"
+    tbird: True
     start: 2024-04-25T08:28:00
     stop: 2024-04-25T12:35:00
     start_tbird: 2024-04-25T09:10:00
@@ -377,6 +383,7 @@ flights:
     date: 2024-04-26
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF10_20240426/"
     prefix: "20240426_P6_10_"
+    tbird: True
     start: 2024-04-26T08:26:10
     stop: 2024-04-26T12:57:00
     start_tbird: nat
@@ -412,6 +419,7 @@ flights:
     date: 2024-04-29
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF11_20240429/"
     prefix: "20240429_P6_11_"
+    tbird: True
     start: 2024-04-29T10:28:00
     stop: 2024-04-29T13:18:30
     start_tbird: nat

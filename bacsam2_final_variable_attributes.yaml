@@ -57,7 +57,7 @@ noseboom:
       comment: INS roll
     
     rh:
-      old: rFHuN
+      old: rFHuN_corr
       long_name: relative humidity
       standard_name: relative_humidity
       platform: noseboom

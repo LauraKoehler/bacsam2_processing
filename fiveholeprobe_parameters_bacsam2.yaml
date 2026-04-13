@@ -1,13 +1,13 @@
 noseboom:
   qb:
-    a0: 475.7
+    a0: 475.70
     a1_qb: 1
     a1_qc: -0.193
     a1_ps: 0
     a1_qratio: 0
 
   beta:
-    a0: -2.872
+    a0: -2.932
     a1_qb: 0
     a1_qc: 0
     a1_ps: 0
@@ -16,28 +16,28 @@ noseboom:
   qc:
     a0: 0
     a1_qb: 0
-    a1_qc: 1.052
+    a1_qc: 1.04856
     a1_ps: 0
     a1_qratio: 0
 
   alpha:
-    a0: 0.678
+    a0: 0.6517122
     a1_qb: 0
     a1_qc: 0
     a1_ps: 0
-    a1_qratio: 10.773
+    a1_qratio: 11.05415
 
   ps:
     a0: 0
     a1_qb: 0
-    a1_qc: -1.0
+    a1_qc: -0.04856
     a1_ps: 1
     a1_qratio: 0
 
 
 tbird:
   qb:
-    a0: 475.7
+    a0: 475.70
     a1_qb: 1
     a1_qc: -0.193
     a1_ps: 0
@@ -51,7 +51,7 @@ tbird:
     a1_qratio: 10.0134
 
   qc:
-    a0: 0.032
+    a0: 3.2
     a1_qb: 0
     a1_qc: 1.146
     a1_ps: 0
