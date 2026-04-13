@@ -1,5 +1,6 @@
 campaign:
   name: "BACSAM2"
+  tbird_reversed_antennas: True
 
 paths:
   xml_file: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/dms_download_templates/2024_DMS_BacsamII.xml"
@@ -22,7 +23,7 @@ flights:
     date: 2024-04-07
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF01_20240407/"
     prefix: "20240407_P6_01_"
-    tbird: True
+    tbird: False
     start: 2024-04-07T08:46:00
     stop: 2024-04-07T12:56:00
     start_tbird: nat
@@ -73,7 +74,7 @@ flights:
     date: 2024-04-10
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF02_20240410/"
     prefix: "20240410_P6_02_"
-    tbird: True
+    tbird: False
     start: 2024-04-10T08:28:00
     stop: 2024-04-10T12:52:00
     start_tbird: nat
@@ -138,17 +139,11 @@ flights:
       20: 2024-04-11T12:06:00
       21: 2024-04-11T12:11:00
 
-  4: 
-    date: 2024-04-13
-    data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF04_20240413/"
-    prefix: "20240413_P6_04_"
-    tbird: True
-
   40: 
     date: 2024-04-13
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF04a_20240413/"
     prefix: "20240414_P6_04a_"
-    tbird: True
+    tbird: False
     start: 2024-04-13T06:11:00
     stop: 2024-04-13T08:38:00
     start_tbird: nat
@@ -190,7 +185,7 @@ flights:
     date: 2024-04-13
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF04c_20240413/"
     prefix: "20240413_P6_04c_"
-    tbird: True
+    tbird: False
     start: 2024-04-13T14:29:00
     stop: 2024-04-13T16:45:00
     start_tbird: nat
@@ -383,7 +378,7 @@ flights:
     date: 2024-04-26
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF10_20240426/"
     prefix: "20240426_P6_10_"
-    tbird: True
+    tbird: False
     start: 2024-04-26T08:26:10
     stop: 2024-04-26T12:57:00
     start_tbird: nat
@@ -419,7 +414,7 @@ flights:
     date: 2024-04-29
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF11_20240429/"
     prefix: "20240429_P6_11_"
-    tbird: True
+    tbird: False
     start: 2024-04-29T10:28:00
     stop: 2024-04-29T13:18:30
     start_tbird: nat
