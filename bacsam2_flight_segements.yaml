@@ -1,0 +1,1051 @@
+flights:
+  1:
+    segments:
+    - segment: 0
+      time: '2024-04-07T08:46:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2024-04-07T09:00:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2024-04-07T09:31:00'
+      type: Descent
+      comment: ''
+    - segment: 3
+      time: '2024-04-07T09:40:00'
+      type: High leg out
+      comment: Calibration 1
+    - segment: 4
+      time: '2024-04-07T09:57:00'
+      type: Turn and high leg ret
+      comment: Calibration 1
+    - segment: 5
+      time: '2024-04-07T10:10:00'
+      type: Descent
+      comment: ''
+    - segment: 6
+      time: '2024-04-07T10:19:00'
+      type: Turn
+      comment: ''
+    - segment: 7
+      time: '2024-04-07T10:25:00'
+      type: Ladder low leg 1 out
+      comment: Calibration 2
+    - segment: 8
+      time: '2024-04-07T10:41:00'
+      type: Ladder low leg 1 ret
+      comment: Calibration 2
+    - segment: 9
+      time: '2024-04-07T10:59:00'
+      type: Ladder middle leg 2 out
+      comment: Calibration 3
+    - segment: 10
+      time: '2024-04-07T11:15:30'
+      type: Ladder middle leg 2 ret
+      comment: Calibration 3
+    - segment: 11
+      time: '2024-04-07T11:34:00'
+      type: Ladder high leg 3 out
+      comment: Calibration 4
+    - segment: 12
+      time: '2024-04-07T11:50:00'
+      type: Ladder high leg 3 ret
+      comment: Calibration 4
+    - segment: 13
+      time: '2024-04-07T12:06:00'
+      type: Ascent
+      comment: ''
+    - segment: 14
+      time: '2024-04-07T12:16:00'
+      type: Transit
+      comment: ''
+    - segment: 15
+      time: '2024-04-07T12:38:00'
+      type: Descent and approach
+      comment: ''
+    - segment: 16
+      time: '2024-04-07T12:56:00'
+      type: Landing
+      comment: ''
+  2:
+    segments:
+    - segment: 0
+      time: '2024-04-10T08:28:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2024-04-10T08:38:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2024-04-10T09:17:00'
+      type: Descent
+      comment: ''
+    - segment: 3
+      time: '2024-04-10T09:30:00'
+      type: Low straight, ascent and turn
+      comment: ''
+    - segment: 4
+      time: '2024-04-10T09:46:00'
+      type: Return a bit higher
+      comment: ''
+    - segment: 5
+      time: '2024-04-10T10:07:00'
+      type: Ascent
+      comment: ''
+    - segment: 6
+      time: '2024-04-10T10:12:00'
+      type: Middle straight, turn
+      comment: Calibration 1
+    - segment: 7
+      time: '2024-04-10T10:21:00'
+      type: Return at same height
+      comment: Calibration 1
+    - segment: 8
+      time: '2024-04-10T10:35:00'
+      type: Descent
+      comment: ''
+    - segment: 9
+      time: '2024-04-10T10:38:00'
+      type: Straight, a bit lower
+      comment: ''
+    - segment: 10
+      time: '2024-04-10T10:48:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 11
+      time: '2024-04-10T10:51:00'
+      type: Return at height of segment 6 & 7
+      comment: ''
+    - segment: 12
+      time: '2024-04-10T11:06:00'
+      type: Descent and turn
+      comment: ''
+    - segment: 13
+      time: '2024-04-10T11:10:00'
+      type: Low segment
+      comment: ''
+    - segment: 14
+      time: '2024-04-10T11:27:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 15
+      time: '2024-04-10T11:34:00'
+      type: Straight high segment
+      comment: ''
+    - segment: 16
+      time: '2024-04-10T11:40:00'
+      type: Ascent
+      comment: ''
+    - segment: 17
+      time: '2024-04-10T11:49:00'
+      type: Transit
+      comment: ''
+    - segment: 18
+      time: '2024-04-10T12:10:00'
+      type: Descent and approach
+      comment: ''
+    - segment: 19
+      time: '2024-04-10T12:52:00'
+      type: Landing
+      comment: ''
+  3:
+    segments:
+    - segment: 0
+      time: '2024-04-11T08:34:30'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2024-04-11T08:38:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2024-04-11T09:05:00'
+      type: Descent
+      comment: ''
+    - segment: 3
+      time: '2024-04-11T09:10:00'
+      type: Ladder leg 1
+      comment: Low
+    - segment: 4
+      time: '2024-04-11T09:22:00'
+      type: Turn and ascent
+      comment: ''
+    - segment: 5
+      time: '2024-04-11T09:26:00'
+      type: Ladder leg 2
+      comment: Middle
+    - segment: 6
+      time: '2024-04-11T09:46:00'
+      type: Turn and ascent
+      comment: ''
+    - segment: 7
+      time: '2024-04-11T09:51:00'
+      type: Ladder leg 3
+      comment: High
+    - segment: 8
+      time: '2024-04-11T10:07:00'
+      type: Descent and change of direction
+      comment: Profile
+    - segment: 9
+      time: '2024-04-11T10:13:00'
+      type: Low straight
+      comment: ''
+    - segment: 10
+      time: '2024-04-11T10:15:00'
+      type: Ascent
+      comment: Profile
+    - segment: 11
+      time: '2024-04-11T10:20:00'
+      type: Change direction
+      comment: ''
+    - segment: 12
+      time: '2024-04-11T10:24:00'
+      type: Ladder leg 1
+      comment: High
+    - segment: 13
+      time: '2024-04-11T10:42:00'
+      type: Descent and turn
+      comment: ''
+    - segment: 14
+      time: '2024-04-11T10:48:00'
+      type: Ladder leg 2
+      comment: Middle
+    - segment: 15
+      time: '2024-04-11T11:06:00'
+      type: Descent and turn
+      comment: ''
+    - segment: 16
+      time: '2024-04-11T11:09:00'
+      type: Ladder leg 3, long low segment
+      comment: Low
+    - segment: 17
+      time: '2024-04-11T11:43:00'
+      type: Ascent
+      comment: ''
+    - segment: 18
+      time: '2024-04-11T11:45:00'
+      type: Straight segment
+      comment: ''
+    - segment: 19
+      time: '2024-04-11T12:01:00'
+      type: Turn and ascent
+      comment: ''
+    - segment: 20
+      time: '2024-04-11T12:06:00'
+      type: Transit
+      comment: ''
+    - segment: 21
+      time: '2024-04-11T12:11:00'
+      type: Descent and approach
+      comment: ''
+    - segment: 22
+      time: '2024-04-11T12:23:00'
+      type: Landing
+      comment: ''
+  40:
+    segments:
+    - segment: 0
+      time: '2024-04-13T06:11:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2024-04-13T06:22:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2024-04-13T08:20:00'
+      type: Descent and approach
+      comment: ''
+    - segment: 3
+      time: '2024-04-13T08:38:00'
+      type: Landing
+      comment: ''
+  41:
+    segments:
+    - segment: 0
+      time: '2024-04-13T09:45:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2024-04-13T09:49:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2024-04-13T09:55:00'
+      type: Descent
+      comment: Profile
+    - segment: 3
+      time: '2024-04-13T10:01:00'
+      type: Segment 1
+      comment: Low
+    - segment: 4
+      time: '2024-04-13T10:22:00'
+      type: Ascent
+      comment: ''
+    - segment: 5
+      time: '2024-04-13T10:23:00'
+      type: Segment 2
+      comment: A bit higher
+    - segment: 6
+      time: '2024-04-13T10:48:30'
+      type: Ascent
+      comment: ''
+    - segment: 7
+      time: '2024-04-13T10:52:00'
+      type: Segment 3
+      comment: Middle
+    - segment: 8
+      time: '2024-04-13T11:15:00'
+      type: Ascent
+      comment: ''
+    - segment: 9
+      time: '2024-04-13T11:17:00'
+      type: Segment 4
+      comment: High
+    - segment: 10
+      time: '2024-04-13T11:42:00'
+      type: Turn and descent
+      comment: Profile
+    - segment: 11
+      time: '2024-04-13T11:48:00'
+      type: Segment 4
+      comment: Low
+    - segment: 12
+      time: '2024-04-13T12:13:00'
+      type: Ascent
+      comment: ''
+    - segment: 13
+      time: '2024-04-13T12:15:00'
+      type: Segment 3
+      comment: A bit higher
+    - segment: 14
+      time: '2024-04-13T12:39:30'
+      type: Ascent
+      comment: ''
+    - segment: 15
+      time: '2024-04-13T12:41:00'
+      type: Segment 2
+      comment: Middle
+    - segment: 16
+      time: '2024-04-13T13:06:30'
+      type: Ascent
+      comment: ''
+    - segment: 17
+      time: '2024-04-13T13:09:00'
+      type: Segment 1
+      comment: High
+    - segment: 18
+      time: '2024-04-13T13:41:00'
+      type: Descent and approach
+      comment: ''
+    - segment: 19
+      time: '2024-04-13T13:45:00'
+      type: Landing
+      comment: ''
+  42:
+    segments:
+    - segment: 0
+      time: '2024-04-13T14:29:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2024-04-13T14:43:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2024-04-13T16:22:00'
+      type: Descent and approach
+      comment: ''
+    - segment: 3
+      time: '2024-04-13T16:45:00'
+      type: Landing
+      comment: ''
+  5:
+    segments:
+    - segment: 0
+      time: '2024-04-15T09:03:46'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2024-04-15T09:11:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2024-04-15T09:25:00'
+      type: Descent
+      comment: ''
+    - segment: 3
+      time: '2024-04-15T09:30:00'
+      type: Transit
+      comment: ''
+    - segment: 4
+      time: '2024-04-15T09:55:00'
+      type: Descent
+      comment: ''
+    - segment: 5
+      time: '2024-04-15T10:00:00'
+      type: Transit to ladder
+      comment: Already low
+    - segment: 6
+      time: '2024-04-15T10:12:40'
+      type: Descent
+      comment: ''
+    - segment: 7
+      time: '2024-04-15T10:15:00'
+      type: Ladder leg 1
+      comment: Low
+    - segment: 8
+      time: '2024-04-15T10:47:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 9
+      time: '2024-04-15T10:54:00'
+      type: Ladder leg 2
+      comment: Middle
+    - segment: 10
+      time: '2024-04-15T11:25:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 11
+      time: '2024-04-15T11:30:30'
+      type: Ladder leg 3
+      comment: High
+    - segment: 12
+      time: '2024-04-15T12:00:00'
+      type: Descent and turn
+      comment: Profile
+    - segment: 13
+      time: '2024-04-15T12:12:30'
+      type: Ladder leg 4
+      comment: Low
+    - segment: 14
+      time: ' 2024-04-15T12:43:00'
+      type: Ascnet
+      comment: ''
+    - segment: 15
+      time: '2024-04-15T12:51:00'
+      type: Transit
+      comment: ''
+    - segment: 16
+      time: '2024-04-15T13:27:00'
+      type: Descent and approach
+      comment: ''
+    - segment: 17
+      time: '2024-04-15T13:41:13'
+      type: Landing
+      comment: ''
+  6:
+    segments:
+    - segment: 0
+      time: '2024-04-17T12:41:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2024-04-17T12:52:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2024-04-17T13:24:00'
+      type: Descent
+      comment: ''
+    - segment: 3
+      time: '2024-04-17T13:33:00'
+      type: Straight and turn
+      comment: ''
+    - segment: 4
+      time: '2024-04-17T13:39:00'
+      type: Ladder leg 1
+      comment: High
+    - segment: 5
+      time: '2024-04-17T13:58:00'
+      type: Descent and turn
+      comment: ''
+    - segment: 6
+      time: '2024-04-17T14:04:00'
+      type: Ladder leg 2
+      comment: Middle
+    - segment: 7
+      time: '2024-04-17T14:24:00'
+      type: Descent and turn
+      comment: ''
+    - segment: 8
+      time: '2024-04-17T14:30:00'
+      type: Ladder leg 3
+      comment: Low
+    - segment: 9
+      time: '2024-04-17T14:47:00'
+      type: Ascent and turn
+      comment: Profile
+    - segment: 10
+      time: '2024-04-17T14:54:00'
+      type: Straight high
+      comment: ''
+    - segment: 11
+      time: '2024-04-17T14:58:00'
+      type: Descent and turn
+      comment: Profile
+    - segment: 12
+      time: '2024-04-17T15:10:00'
+      type: Ladder leg 1
+      comment: Low
+    - segment: 13
+      time: '2024-04-17T15:29:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 14
+      time: '2024-04-17T15:33:00'
+      type: Ladder leg 2
+      comment: Middle
+    - segment: 15
+      time: '2024-04-17T15:51:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 16
+      time: '2024-04-17T15:55:00'
+      type: Ladder leg 3
+      comment: High
+    - segment: 17
+      time: '2024-04-17T16:15:00'
+      type: Slow ascent and curve
+      comment: ''
+    - segment: 18
+      time: '2024-04-17T16:22:00'
+      type: Asent
+      comment: ''
+    - segment: 19
+      time: '2024-04-17T16:27:00'
+      type: Transit
+      comment: ''
+    - segment: 20
+      time: '2024-04-17T17:05:00'
+      type: Descent and approach
+      comment: ''
+    - segment: 21
+      time: '2024-04-17T17:20:00'
+      type: Landing
+      comment: ''
+  7:
+    segments:
+    - segment: 0
+      time: '2024-04-23T08:27:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2024-04-23T08:35:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2024-04-23T08:44:00'
+      type: Descent
+      comment: ''
+    - segment: 3
+      time: '2024-04-23T08:48:00'
+      type: Transit
+      comment: ''
+    - segment: 4
+      time: '2024-04-23T08:56:30'
+      type: Descent
+      comment: Probably clouds
+    - segment: 5
+      time: '2024-04-23T09:13:00'
+      type: Ascent and descent
+      comment: Probably clouds
+    - segment: 6
+      time: '2024-04-23T09:32:00'
+      type: Ladder leg 1
+      comment: Low
+    - segment: 7
+      time: '2024-04-23T09:50:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 8
+      time: '2024-04-23T09:57:00'
+      type: Ladder leg 2
+      comment: Middle
+    - segment: 9
+      time: '2024-04-23T10:16:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 10
+      time: '2024-04-23T10:20:00'
+      type: Ladder leg 3
+      comment: High
+    - segment: 11
+      time: '2024-04-23T10:37:00'
+      type: Descent and curve
+      comment: ''
+    - segment: 12
+      time: '2024-04-23T10:41:00'
+      type: Transit
+      comment: ''
+    - segment: 13
+      time: '2024-04-23T10:52:00'
+      type: Ladder leg 1
+      comment: Middle
+    - segment: 14
+      time: '2024-04-23T11:16:00'
+      type: Descent
+      comment: ''
+    - segment: 15
+      time: '2024-04-23T11:20:00'
+      type: Ladder leg 2
+      comment: Low
+    - segment: 16
+      time: '2024-04-23T11:37:00'
+      type: Ascent and turn
+      comment: Profile
+    - segment: 17
+      time: '2024-04-23T11:45:00'
+      type: Ladder leg 3
+      comment: High
+    - segment: 18
+      time: '2024-04-23T11:58:00'
+      type: Transit
+      comment: ''
+    - segment: 19
+      time: '2024-04-23T12:41:00'
+      type: Descent and approach
+      comment: ''
+    - segment: 20
+      time: '2024-04-23T12:54:00'
+      type: Landing
+      comment: ''
+  8:
+    segments:
+    - segment: 0
+      time: '2024-04-24T08:26:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2024-04-24T08:37:00'
+      type: Segment 1
+      comment: Lowest, but not low
+    - segment: 2
+      time: '2024-04-24T08:53:00'
+      type: Ascent
+      comment: ''
+    - segment: 3
+      time: '2024-04-24T08:55:00'
+      type: Segment 2
+      comment: Lower middle
+    - segment: 4
+      time: '2024-04-24T09:00:00'
+      type: Ascent
+      comment: ''
+    - segment: 5
+      time: '2024-04-24T09:03:00'
+      type: Segment 3
+      comment: Upper middle
+    - segment: 6
+      time: '2024-04-24T09:09:30'
+      type: Ascent
+      comment: ''
+    - segment: 7
+      time: '2024-04-24T09:11:30'
+      type: Segment 4
+      comment: High
+    - segment: 8
+      time: '2024-04-24T09:21:00'
+      type: Descent
+      comment: ''
+    - segment: 9
+      time: '2024-04-24T09:29:00'
+      type: Curve
+      comment: ''
+    - segment: 10
+      time: '2024-04-24T09:33:00'
+      type: Leg out 1
+      comment: Calibration 1
+    - segment: 11
+      time: '2024-04-24T09:43:00'
+      type: Turn
+      comment: ''
+    - segment: 12
+      time: '2024-04-24T09:46:30'
+      type: Leg ret 1
+      comment: Calibration 1
+    - segment: 13
+      time: '2024-04-24T09:52:30'
+      type: Turn
+      comment: ''
+    - segment: 14
+      time: '2024-04-24T09:56:00'
+      type: Leg out 2
+      comment: Calibration 2
+    - segment: 15
+      time: '2024-04-24T10:06:30'
+      type: Turn
+      comment: ''
+    - segment: 16
+      time: '2024-04-24T10:09:30'
+      type: Legt ret 2
+      comment: Calibration 2
+    - segment: 17
+      time: '2024-04-24T10:15:00'
+      type: Turn
+      comment: ''
+    - segment: 18
+      time: '2024-04-24T10:18:30'
+      type: Transit
+      comment: ''
+    - segment: 19
+      time: '2024-04-24T10:29:00'
+      type: Descent and turn
+      comment: ''
+    - segment: 20
+      time: '2024-04-24T10:35:00'
+      type: Segment 1
+      comment: ''
+    - segment: 21
+      time: '2024-04-24T10:43:00'
+      type: Segment 2
+      comment: A little bit lower
+    - segment: 22
+      time: '2024-04-24T10:51:30'
+      type: Ascent
+      comment: ''
+    - segment: 23
+      time: '2024-04-24T10:58:00'
+      type: Turn
+      comment: ''
+    - segment: 24
+      time: '2024-04-24T11:01:00'
+      type: Straight segment
+      comment: Little bit of descent
+    - segment: 25
+      time: '2024-04-24T11:33:00'
+      type: Turn
+      comment: ''
+    - segment: 26
+      time: '2024-04-24T11:37:00'
+      type: Straight
+      comment: Probably clouds
+    - segment: 27
+      time: '2024-04-24T11:47:00'
+      type: Straight
+      comment: ''
+    - segment: 28
+      time: '2024-04-24T11:57:00'
+      type: Curve, them straight
+      comment: ''
+    - segment: 29
+      time: '2024-04-24T12:05:30'
+      type: Ascent
+      comment: ''
+    - segment: 30
+      time: '2024-04-24T12:13:00'
+      type: Transit
+      comment: ''
+    - segment: 31
+      time: '2024-04-24T12:36:00'
+      type: Descent and approach
+      comment: ''
+    - segment: 32
+      time: '2024-04-24T12:56:00'
+      type: Landing
+      comment: ''
+  9:
+    segments:
+    - segment: 0
+      time: '2024-04-25T08:28:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2024-04-25T08:37:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2024-04-25T08:56:30'
+      type: Curve and transit
+      comment: ''
+    - segment: 3
+      time: '2024-04-25T09:08:00'
+      type: Descent
+      comment: Profile
+    - segment: 4
+      time: '2024-04-25T09:21:00'
+      type: Leg out 1
+      comment: Calibration 1
+    - segment: 5
+      time: '2024-04-25T09:38:30'
+      type: Turn
+      comment: ''
+    - segment: 6
+      time: '2024-04-25T09:42:00'
+      type: Leg ret 1, Ladder leg 1
+      comment: Calibration 1, low leg ladder
+    - segment: 7
+      time: '2024-04-25T10:06:00'
+      type: Ascent and turn
+      comment: Profile
+    - segment: 8
+      time: '2024-04-25T10:12:00'
+      type: Ladder leg 2
+      comment: High
+    - segment: 9
+      time: '2024-04-25T10:33:00'
+      type: Descent and turn
+      comment: Probably clouds
+    - segment: 10
+      time: '2024-04-25T10:45:00'
+      type: Ladder leg 3
+      comment: Middle
+    - segment: 11
+      time: '2024-04-25T10:56:00'
+      type: Descent and turn
+      comment: ''
+    - segment: 12
+      time: '2024-04-25T11:01:00'
+      type: Leg out 2, Ladder leg 4
+      comment: Calibration 2, low leg ladder
+    - segment: 13
+      time: '2024-04-25T11:23:00'
+      type: Turn
+      comment: ''
+    - segment: 14
+      time: '2024-04-25T11:28:00'
+      type: Leg ret 2
+      comment: Calibration 2
+    - segment: 15
+      time: '2024-04-25T11:47:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 16
+      time: '2024-04-25T11:59:00'
+      type: Transit
+      comment: ''
+    - segment: 17
+      time: '2024-04-25T12:13:00'
+      type: Descent and approach
+      comment: ''
+    - segment: 18
+      time: '2024-04-25T12:35:00'
+      type: Landing
+      comment: ''
+  10:
+    segments:
+    - segment: 0
+      time: '2024-04-26T08:26:10'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2024-04-26T08:38:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2024-04-26T09:21:00'
+      type: Descent
+      comment: ''
+    - segment: 3
+      time: '2024-04-26T09:37:00'
+      type: Curve
+      comment: ''
+    - segment: 4
+      time: '2024-04-26T09:40:00'
+      type: Ladder leg 1
+      comment: Middle
+    - segment: 5
+      time: '2024-04-26T09:58:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 6
+      time: '2024-04-26T10:02:00'
+      type: Ladder leg 2
+      comment: High
+    - segment: 7
+      time: '2024-04-26T10:33:00'
+      type: Descent
+      comment: ''
+    - segment: 8
+      time: '2024-04-26T10:38:00'
+      type: 'Ladder 2 leg 1 '
+      comment: Middle
+    - segment: 9
+      time: '2024-04-26T10:52:00'
+      type: Descent and turn
+      comment: ''
+    - segment: 10
+      time: '2024-04-26T10:58:00'
+      type: Ladder 2 leg 2, leg out 1
+      comment: Low, varying height, calibration 1
+    - segment: 11
+      time: '2024-04-26T11:29:00'
+      type: Turn
+      comment: ''
+    - segment: 12
+      time: '2024-04-26T11:33:00'
+      type: Leg ret 1
+      comment: Calibration 1
+    - segment: 13
+      time: '2024-04-26T11:45:00'
+      type: Descent
+      comment: ''
+    - segment: 14
+      time: '2024-04-26T11:49:00'
+      type: Ladder 2 leg 3
+      comment: Low
+    - segment: 15
+      time: '2024-04-26T12:07:00'
+      type: Ascent and curve
+      comment: ''
+    - segment: 16
+      time: '2024-04-26T12:13:00'
+      type: Ascent
+      comment: ''
+    - segment: 17
+      time: '2024-04-26T12:19:00'
+      type: Transit
+      comment: ''
+    - segment: 18
+      time: '2024-04-26T12:41:00'
+      type: Descent and approach
+      comment: ''
+    - segment: 19
+      time: '2024-04-26T12:57:00'
+      type: Landing
+      comment: ''
+  11:
+    segments:
+    - segment: 0
+      time: '2024-04-29T10:28:00'
+      type: Take off
+      comment: ''
+    - segment: 1
+      time: '2024-04-29T10:35:00'
+      type: Transit
+      comment: ''
+    - segment: 2
+      time: '2024-04-29T10:40:30'
+      type: Turn
+      comment: ''
+    - segment: 3
+      time: '2024-04-29T10:46:00'
+      type: Segment 1
+      comment: ''
+    - segment: 4
+      time: '2024-04-29T10:49:00'
+      type: Turn
+      comment: ''
+    - segment: 5
+      time: '2024-04-29T10:51:00'
+      type: Segment 2
+      comment: ''
+    - segment: 6
+      time: '2024-04-29T10:53:00'
+      type: Turn and segment 3
+      comment: ''
+    - segment: 7
+      time: '2024-04-29T10:58:00'
+      type: Descent and turn
+      comment: ''
+    - segment: 8
+      time: '2024-04-29T11:03:00'
+      type: Segment 4
+      comment: Low
+    - segment: 9
+      time: '2024-04-29T11:08:00'
+      type: Curve
+      comment: ''
+    - segment: 10
+      time: '2024-04-29T11:12:00'
+      type: Ascent
+      comment: ''
+    - segment: 11
+      time: '2024-04-29T11:16:00'
+      type: Curve and segment 5
+      comment: High
+    - segment: 12
+      time: '2024-04-29T11:21:00'
+      type: Turn and segment 6
+      comment: High
+    - segment: 13
+      time: '2024-04-29T11:28:00'
+      type: Descent
+      comment: Profile
+    - segment: 14
+      time: '2024-04-29T11:30:30'
+      type: Segment 7
+      comment: Low
+    - segment: 15
+      time: '2024-04-29T11:35:00'
+      type: Segment 8 and curve
+      comment: Middle
+    - segment: 16
+      time: '2024-04-29T11:42:00'
+      type: Segment 9
+      comment: Low
+    - segment: 17
+      time: '2024-04-29T11:55:00'
+      type: Ascent and turn
+      comment: Profile
+    - segment: 18
+      time: '2024-04-29T11:59:00'
+      type: Segment 10
+      comment: High
+    - segment: 19
+      time: '2024-04-29T12:07:00'
+      type: Descent
+      comment: Profile
+    - segment: 20
+      time: '2024-04-29T12:10:30'
+      type: Curve
+      comment: ''
+    - segment: 21
+      time: '2024-04-29T12:12:00'
+      type: Leg out 1
+      comment: Calibration 1
+    - segment: 22
+      time: '2024-04-29T12:18:00'
+      type: Turn
+      comment: ''
+    - segment: 23
+      time: '2024-04-29T12:21:00'
+      type: Leg ret 1
+      comment: Calibration 1
+    - segment: 24
+      time: '2024-04-29T12:26:00'
+      type: Turn
+      comment: ''
+    - segment: 25
+      time: '2024-04-29T12:29:00'
+      type: Leg out 2
+      comment: Calibration 2
+    - segment: 26
+      time: '2024-04-29T12:37:00'
+      type: Turn
+      comment: ''
+    - segment: 27
+      time: '2024-04-29T12:40:00'
+      type: Leg ret 2
+      comment: Calibration 2
+    - segment: 28
+      time: '2024-04-29T12:45:00'
+      type: Ascent and turn
+      comment: ''
+    - segment: 29
+      time: '2024-04-29T12:50:00'
+      type: Straight
+      comment: Probably clouds
+    - segment: 30
+      time: '2024-04-29T12:54:00'
+      type: Transit
+      comment: ''
+    - segment: 31
+      time: '2024-04-29T12:59:00'
+      type: Descent and turn
+      comment: ''
+    - segment: 32
+      time: '2024-04-29T13:03:00'
+      type: Transit
+      comment: ''
+    - segment: 33
+      time: '2024-04-29T13:14:00'
+      type: Descent and approach
+      comment: ''
+    - segment: 34
+      time: '2024-04-29T13:18:30'
+      type: Landing
+      comment: ''
