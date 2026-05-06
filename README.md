@@ -2,6 +2,11 @@
 
 Processing documentation for the BACSAM II aircraft campaign with Polar 6 in spring 2024.
 
+To process all flights at once, use
+```
+for f in 1 2 3 40 41 42 5 6 7 8 9 10 11; do polair <command> -f $f -c <config>; done
+```
+
 ## Flight segments
 
 <table style="font-size:90%; border-collapse:collapse;">
