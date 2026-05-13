@@ -6,17 +6,19 @@ campaign:
 
 paths:
   xml_file: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/dms_download_templates/2024_DMS_BacsamII.xml"
-  variables: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/met_P6_varibles_bacsam2.yaml"
-  calibration: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/calibration_bacsam2.yaml"
-  fiveholeprobe: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/fiveholeprobe_parameters_bacsam2.yaml"
+  variables: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/turbulence/met_P6_varibles_bacsam2.yaml"
+  calibration: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/turbulence/calibration_bacsam2.yaml"
+  fiveholeprobe: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/turbulence/fiveholeprobe_parameters_bacsam2.yaml"
   processing_log_file: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/"
-  outdir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Prozessierung"
   processed_variables: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/bacsam2_final_variable_attributes.yaml"
   segments: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/bacsam2_flight_segements.yaml"
   outdirs:
     raw: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Prozessierung/raw"
     noseboom: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Prozessierung/noseboom"
     tbird: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Prozessierung/tbird"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Prozessierung/mcpc"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Prozessierung/partector"
+    partector_tbird: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Prozessierung/partector_tbird"
 
 metadata:
   author: "Laura Köhler"
@@ -46,11 +48,43 @@ instrument_metadata:
     doi: "tba"
     conventions: "CF-1.7"
     comment: "part of <doi>"
+  mcpc:
+    title: "BACSAM 2 campaign with Polar 6: aMCPC of "
+    author: "Laura Köhler, Zsofia Juranyi"
+    institution: "Alfred-Wegener-Institut"
+    contact: "laura.koehler@awi.de"
+    date: "2026-05-06"
+    version: "v1.0.0"
+    doi: "tba"
+    conventions: "CF-1.7"
+    comment: "part of <doi>"
+  partector:
+    title: "BACSAM 2 campaign with Polar 6: Partector 2 (Polar 6) of "
+    author: "Laura Köhler, Zsofia Juranyi"
+    institution: "Alfred-Wegener-Institut"
+    contact: "laura.koehler@awi.de"
+    date: "2026-05-12"
+    version: "v1.0.0"
+    doi: "tba"
+    conventions: "CF-1.7"
+    comment: "part of <doi>"
+  partector_tbird:
+    title: "BACSAM 2 campaign with Polar 6: Partector 2 (T-Bird) of "
+    author: "Laura Köhler, Zsofia Juranyi"
+    institution: "Alfred-Wegener-Institut"
+    contact: "laura.koehler@awi.de"
+    date: "2026-05-12"
+    version: "v1.0.0"
+    doi: "tba"
+    conventions: "CF-1.7"
+    comment: "part of <doi>"
 
 flights:
   1: 
     date: 2024-04-07
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF01_20240407/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF01_20240407/MCPC/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF01_20240407/Partector/2024_04_07/"
     prefix: "20240407_P6_01_"
     tbird: False
     start: 2024-04-07T08:46:00
@@ -88,90 +122,144 @@ flights:
       ret5:
         start: 2024-04-07T11:52:19
         stop: 2024-04-07T12:05:20
+    time_offsets:
+      mcpc: -1290
+      partector: 0
 
   2: 
     date: 2024-04-10
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF02_20240410/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF02_20240410/MCPC/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF02_20240410/Partector/2024_04_10"
     prefix: "20240410_P6_02_"
     tbird: False
     start: 2024-04-10T08:28:00
     stop: 2024-04-10T12:52:00
     start_tbird: nat
     stop_tbird: nat
+    time_offsets:
+      mcpc: -11390
+      partector: 0
 
   3: 
     date: 2024-04-11
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF03_20240411/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF03_20240411/MCPC/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF03_20240411/Partector/2024_04_11"
     prefix: "20240411_P6_03_"
     tbird: True
     start: 2024-04-11T08:34:30
     stop: 2024-04-11T12:23:00
     start_tbird: 2024-04-11T08:47:00
     stop_tbird: 2024-04-11T11:48:00
+    time_offsets:
+      mcpc: -25980
+      partector: 0
 
   40: 
     date: 2024-04-13
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF04a_20240413/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF40_20240413/MCPC/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF40_20240413/Partector/2024_04_13"
     prefix: "20240414_P6_04a_"
     tbird: False
     start: 2024-04-13T06:11:00
     stop: 2024-04-13T08:38:00
     start_tbird: nat
     stop_tbird: nat
+    time_offsets:
+      mcpc: -23310
+      partector: 0
 
   41: 
     date: 2024-04-13
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF04b_20240413/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF41_20240413/MCPC/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF41_20240413/Partector/2024_04_13"
+    partector_tbird: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF41_20240413/Partector_TBird/"
     prefix: "20240413_P6_04b_"
     tbird: True
     start: 2024-04-13T09:45:00
     stop: 2024-04-13T13:45:00
     start_tbird: 2024-04-13T09:53:00
     stop_tbird: 2024-04-13T13:28:00
+    time_offsets:
+      mcpc: -22510
+      partector: 0
+      partector_tbird: -3000
 
   42: 
     date: 2024-04-13
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF04c_20240413/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF42_20240413/MCPC/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF42_20240413/Partector/2024_04_13"
     prefix: "20240413_P6_04c_"
     tbird: False
     start: 2024-04-13T14:29:00
     stop: 2024-04-13T16:45:00
     start_tbird: nat
     stop_tbird: nat
+    time_offsets:
+      mcpc: -500
+      partector: 0
 
   5: 
     date: 2024-04-15
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF05_20240415/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF05_20240415/MCPC/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF05_20240415/Partector/2024_04_15"
+    partector_tbird: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF05_20240415/Partector_TBird/"
     prefix: "20240415_P6_05_"
     tbird: True
     start: 2024-04-15T09:03:46
     stop: 2024-04-15T13:41:13
     start_tbird: 2024-04-15T09:53:10
     stop_tbird: 2024-04-15T11:49:10
+    time_offsets:
+      mcpc: -5170
+      partector: 0
+      partector_tbird: 0
 
   6: 
     date: 2024-04-17
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF06_20240417/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF06_20240417/MCPC/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF06_20240417/Partector/2024_04_17"
+    partector_tbird: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF06_20240417/Partector_TBird/"
     prefix: "20240417_P6_06_"
     tbird: True
     start: 2024-04-17T12:41:00
     stop: 2024-04-17T17:20:00
     start_tbird: 2024-04-17T13:36:00
     stop_tbird: 2024-04-17T16:20:00
+    time_offsets:
+      mcpc: -3700
+      partector: 0
+      partector_tbird: -1000
 
   7: 
     date: 2024-04-23
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF07_20240423/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF07_20240423/MCPC/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF07_20240423/Partector/2024_04_23"
+    partector_tbird: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF07_20240423/Partector_TBird/"
     prefix: "20240423_P6_07_"
     tbird: True
     start: 2024-04-23T08:27:00
     stop: 2024-04-23T12:54:00
     start_tbird: 2024-04-23T09:17:00
     stop_tbird: 2024-04-23T11:53:00
+    time_offsets:
+      mcpc: 240
+      partector: 0
+      partector_tbird: -2000
 
   8: 
     date: 2024-04-24
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF08_20240424/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF08_20240424/MCPC/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF08_20240424/Partector/2024_04_24"
+    partector_tbird: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF08_20240424/Partector_TBird/"
     prefix: "20240424_P6_08_"
     tbird: True
     start: 2024-04-24T08:26:00
@@ -191,10 +279,17 @@ flights:
       ret2:
         start: 2024-04-24T10:10:01
         stop: 2024-04-24T10:14:31
+    time_offsets:
+      mcpc: -3470
+      partector: 0
+      partector_tbird: -33000
 
   9: 
     date: 2024-04-25
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF09_20240425/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF09_20240425/MCPC/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF09_20240425/Partector"
+    partector_tbird: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF09_20240425/Partector_TBird/"
     prefix: "20240425_P6_09_"
     tbird: True
     start: 2024-04-25T08:28:00
@@ -214,10 +309,16 @@ flights:
       ret2:
         start: 2024-04-25T11:28:03
         stop: 2024-04-25T11:41:22
+    time_offsets:
+      mcpc: -160
+      partector: 0
+      partector_tbird: 0
 
   10: 
     date: 2024-04-26
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF10_20240426/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF10_20240426/MCPC/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF10_20240426/Partector"
     prefix: "20240426_P6_10_"
     tbird: False
     start: 2024-04-26T08:26:10
@@ -231,10 +332,15 @@ flights:
       ret1:
         start: 2024-04-26T11:32:30
         stop: 2024-04-26T11:45:00
+    time_offsets:
+      mcpc: -6340
+      partector: 0
 
   11: 
     date: 2024-04-29
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF11_20240429/"
+    mcpc: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF11_20240429/MCPC/"
+    partector: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF11_20240429/Partector"
     prefix: "20240429_P6_11_"
     tbird: False
     start: 2024-04-29T10:28:00
@@ -254,3 +360,6 @@ flights:
       ret2:
         start: 2024-04-29T12:39:43
         stop: 2024-04-29T12:44:54
+    time_offsets:
+      mcpc: -9940
+      partector: 0

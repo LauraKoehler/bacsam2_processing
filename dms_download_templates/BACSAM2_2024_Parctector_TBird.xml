@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orderfile xmlns="http://www.werum.de/schema/orderfile" archiveSetPath="/Aircraft/P6-247_BACSAM2_2024/2404251101-dms1" orderFileName="BACSAM2_Parctector_TBird_RF" saveOrderFileName="" saveOrder="false" systemName="Aircraft">
+    <user emailAddress="laura.koehler@awi.de" receiveEmail="true" username="laura.koehler@awi.de"/>
+    <destinationFile fileNamePrefix="BACSAM2_Parctector_TBird_RF" fileFormat="ASCII" maxFileSize="0" path="/data2_1/dms/DMS_Extraction/results">
+        <format columnSeparator=";" dateTimeFormat="YYYY_SLASH_MM_SLASH_DD_BLANK_HH_COLON_mm_COLON_ss" decimalSeparator="Dot" fitToFormat="false" includeHeaderRow="true" nonValidValueAlphanumeric=" " nonValidValueNumeric="9" nonValidValuePosition=" " recordSeparator="\n" secondFractionDigits="6" showInvalidValues="true" skipInvalidLines="true"/>
+    </destinationFile>
+    <extraction dataSource="FullDataSet" endDate="2024-04-25T12:40:38.000Z" intervalUnit="s" intervalValue="1" startDate="2024-04-25T08:19:23.000Z">
+        <channels numberOfChannels="10">
+            <channel channelShortName="P" columnOrderPosition="1" deviceShortName="Partector2" fieldWidth="4" meanCalculation="None" outputFormat="Real" physicalUnit="hPa" precision="2" sampleRate="1" dataType="">
+                <deliveredValues max="false" mean="false" meanValidity="false" min="false" samples="false" spot="true" standardDeviation="false" valueValidity="false" variance="false"/>
+            </channel>
+            <channel channelShortName="flow" columnOrderPosition="2" deviceShortName="Partector2" fieldWidth="1" meanCalculation="None" outputFormat="Real" physicalUnit="lpm" precision="3" sampleRate="1" dataType="">
+                <deliveredValues max="false" mean="false" meanValidity="false" min="false" samples="false" spot="true" standardDeviation="false" valueValidity="false" variance="false"/>
+            </channel>
+            <channel channelShortName="diam" columnOrderPosition="3" deviceShortName="Partector2" fieldWidth="3" meanCalculation="None" outputFormat="Integer" physicalUnit="nm" precision="0" sampleRate="1" dataType="">
+                <deliveredValues max="false" mean="false" meanValidity="false" min="false" samples="false" spot="true" standardDeviation="false" valueValidity="false" variance="false"/>
+            </channel>
+            <channel channelShortName="error" columnOrderPosition="4" deviceShortName="Partector2" fieldWidth="3" meanCalculation="None" outputFormat="Integer" physicalUnit="" precision="0" sampleRate="1" dataType="">
+                <deliveredValues max="false" mean="false" meanValidity="false" min="false" samples="false" spot="true" standardDeviation="false" valueValidity="false" variance="false"/>
+            </channel>
+            <channel channelShortName="RH" columnOrderPosition="5" deviceShortName="Partector2" fieldWidth="3" meanCalculation="None" outputFormat="Integer" physicalUnit="%" precision="0" sampleRate="1" dataType="">
+                <deliveredValues max="false" mean="false" meanValidity="false" min="false" samples="false" spot="true" standardDeviation="false" valueValidity="false" variance="false"/>
+            </channel>
+            <channel channelShortName="T" columnOrderPosition="6" deviceShortName="Partector2" fieldWidth="3" meanCalculation="None" outputFormat="Real" physicalUnit="°C" precision="2" sampleRate="1" dataType="">
+                <deliveredValues max="false" mean="false" meanValidity="false" min="false" samples="false" spot="true" standardDeviation="false" valueValidity="false" variance="false"/>
+            </channel>
+            <channel channelShortName="LDSA" columnOrderPosition="7" deviceShortName="Partector2" fieldWidth="5" meanCalculation="None" outputFormat="Real" physicalUnit="µm^2 / cm^3" precision="2" sampleRate="1" dataType="">
+                <deliveredValues max="false" mean="false" meanValidity="false" min="false" samples="false" spot="true" standardDeviation="false" valueValidity="false" variance="false"/>
+            </channel>
+            <channel channelShortName="number" columnOrderPosition="8" deviceShortName="Partector2" fieldWidth="7" meanCalculation="None" outputFormat="Integer" physicalUnit="pt / cm^3" precision="0" sampleRate="1" dataType="">
+                <deliveredValues max="false" mean="false" meanValidity="false" min="false" samples="false" spot="true" standardDeviation="false" valueValidity="false" variance="false"/>
+            </channel>
+            <channel channelShortName="mass" columnOrderPosition="9" deviceShortName="Partector2" fieldWidth="4" meanCalculation="None" outputFormat="Real" physicalUnit="µg/m^3" precision="2" sampleRate="1" dataType="">
+                <deliveredValues max="false" mean="false" meanValidity="false" min="false" samples="false" spot="true" standardDeviation="false" valueValidity="false" variance="false"/>
+            </channel>
+            <channel channelShortName="surface" columnOrderPosition="10" deviceShortName="Partector2" fieldWidth="5" meanCalculation="None" outputFormat="Real" physicalUnit="µm^2 /cm^3" precision="2" sampleRate="1" dataType="">
+                <deliveredValues max="false" mean="false" meanValidity="false" min="false" samples="false" spot="true" standardDeviation="false" valueValidity="false" variance="false"/>
+            </channel>
+        </channels>
+    </extraction>
+</orderfile>

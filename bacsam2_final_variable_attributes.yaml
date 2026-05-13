@@ -201,3 +201,178 @@ tbird:
       platform: tbird
       units: m s-1
       comment: from five hole probe pressures
+
+mcpc:
+
+    number_conc:
+      old: concent
+      long_name: number concentration
+      standard_name: number_concentration_of_aerosol_particles_in_air
+      platform: mCPC
+      units_old: 1/cm^3
+      units: 1/m^3
+      comment: coincidence corrected concentration
+
+    counts:
+      old: cnt_sec
+      long_name: particle counts per second
+      platform: mCPC
+      units_old: 1/s
+      units: 1/s
+      comment: coincidence corrected concentration
+
+    p_air:
+      old: pressur
+      long_name: air pressure
+      standard_name: air_pressure
+      platform: mCPC
+      units_old: mbar
+      units: Pa
+      comment: ambient pressure at inlet
+
+    flow_rate:
+      old: smpflow
+      long_name: sample flow rate
+      platform: mCPC
+      units_old: cm^3/min
+      units: m^3/s
+
+    error:
+      old: err_num
+      long_name: all errors
+      platform: mCPC
+      units_old: 1
+      units: 1
+      comment: see manual for error codes
+
+partector:
+
+    number_conc:
+      old: number
+      long_name: number concentration
+      standard_name: number_concentration_of_aerosol_particles_in_air
+      platform: partector
+      units_old: 1/cm^3
+      units: 1/m^3
+
+    diameter:
+      old: diam
+      long_name: average particle diameter
+      standard_name: diameter_of_ambient_aerosol_particles
+      platform: partector
+      units_old: nm
+      units: m
+
+    ldsa:
+      old: LDSA
+      long_name: lung-deposited surface area concentration
+      platform: partector
+      units_old: um^2/cm^3
+      units: 1/m
+
+    pm0p3:
+      old: mass
+      long_name: mass concentration of PM0.3 ambient aerosol particles in air
+      standard_name: mass_concentration_of_pm0p3_ambient_aerosol_particles_in_air
+      platform: partector
+      units_old: ug/m^3
+      units: kg/m^3
+
+    rh:
+      old: RH
+      long_name: relative humidity
+      standard_name: relative_humidity
+      platform: partector
+      units_old: percent
+      units: 1
+      comment: RH inside partector
+
+    p_air:
+      old: P
+      long_name: air pressure
+      standard_name: air_pressure
+      platform: partector
+      units_old: mbar
+      units: Pa
+      comment: pressure inside partector
+
+    flow_rate:
+      old: flow
+      long_name: sample flow rate
+      platform: partector
+      units_old: l/min
+      units: m^3/s
+
+    error:
+      old: error
+      long_name: "error code (0: no error)"
+      platform: partector
+      units_old: 1
+      units: 1
+      comment: see www.naneos.ch/pdf/Partector2_Errors_and_Limits.pdf
+
+partector_dms:
+
+    number_conc:
+      old: Number concentration
+      long_name: number concentration
+      standard_name: number_concentration_of_aerosol_particles_in_air
+      platform: partector
+      units_old: 1/cm^3
+      units: 1/m^3
+
+    diameter:
+      old: Average particle diameter
+      long_name: average particle diameter
+      standard_name: diameter_of_ambient_aerosol_particles
+      platform: partector
+      units_old: nm
+      units: m
+
+    ldsa:
+      old: Lung deposited surface area
+      long_name: lung-deposited surface area concentration
+      platform: partector
+      units_old: um^2/cm^3
+      units: 1/m
+
+    pm0p3:
+      old: Particle mass (PM0.3)
+      long_name: mass concentration of PM0.3 ambient aerosol particles in air
+      standard_name: mass_concentration_of_pm0p3_ambient_aerosol_particles_in_air
+      platform: partector
+      units_old: ug/m^3
+      units: kg/m^3
+
+    rh:
+      old: Internal relative humidity
+      long_name: relative humidity
+      standard_name: relative_humidity
+      platform: partector
+      units_old: percent
+      units: 1
+      comment: RH inside partector
+
+    p_air:
+      old: Air pressure
+      long_name: air pressure
+      standard_name: air_pressure
+      platform: partector
+      units_old: mbar
+      units: Pa
+      comment: pressure inside partector
+
+    flow_rate:
+      old: Approximate flow through device
+      long_name: sample flow rate
+      platform: partector
+      units_old: l/min
+      units: m^3/s
+
+    error:
+      old: Error Number
+      long_name: "error code (0: no error)"
+      platform: partector
+      units_old: 1
+      units: 1
+      comment: see www.naneos.ch/pdf/Partector2_Errors_and_Limits.pdf
