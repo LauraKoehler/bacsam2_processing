@@ -2,7 +2,7 @@ campaign:
   name: "BACSAM2"
   platform: "Polar 6"
   tbird_reversed_antennas: True
-  noseboom_twist: -5.5784
+  noseboom_twist: 0
 
 paths:
   xml_file: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/dms_download_templates/2024_DMS_BacsamII.xml"
@@ -19,6 +19,8 @@ paths:
     mcpc: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Prozessierung/mcpc"
     partector: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Prozessierung/partector"
     partector_tbird: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Prozessierung/partector_tbird"
+    kt19: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Prozessierung/kt19"
+    radiation: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Prozessierung/radiation"
 
 metadata:
   author: "Laura Köhler"
@@ -54,6 +56,7 @@ instrument_metadata:
     institution: "Alfred-Wegener-Institut"
     contact: "laura.koehler@awi.de"
     date: "2026-05-06"
+    serial: 26
     version: "v1.0.0"
     doi: "tba"
     conventions: "CF-1.7"
@@ -64,6 +67,7 @@ instrument_metadata:
     institution: "Alfred-Wegener-Institut"
     contact: "laura.koehler@awi.de"
     date: "2026-05-12"
+    serial: 8242
     version: "v1.0.0"
     doi: "tba"
     conventions: "CF-1.7"
@@ -74,6 +78,29 @@ instrument_metadata:
     institution: "Alfred-Wegener-Institut"
     contact: "laura.koehler@awi.de"
     date: "2026-05-12"
+    version: "v1.0.0"
+    serial: 8149
+    doi: "tba"
+    conventions: "CF-1.7"
+    comment: "part of <doi>"
+  kt19:
+    title: "BACSAM 2 campaign with Polar 6: KT19 of "
+    author: "Laura Köhler, Zsofia Juranyi"
+    institution: "Alfred-Wegener-Institut"
+    contact: "laura.koehler@awi.de"
+    date: "2026-05-12"
+    serial: 3071
+    version: "v1.0.0"
+    doi: "tba"
+    conventions: "CF-1.7"
+    comment: "part of <doi>"
+  radiation:
+    title: "BACSAM 2 campaign with Polar 6: radiation of "
+    author: "Laura Köhler, Zsofia Juranyi"
+    institution: "Alfred-Wegener-Institut"
+    contact: "laura.koehler@awi.de"
+    date: "2026-05-12"
+    instruments: "pyrgeometer & pyranometer top/bottom"
     version: "v1.0.0"
     doi: "tba"
     conventions: "CF-1.7"
@@ -161,7 +188,7 @@ flights:
     data_dir: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Turbulenz/RF04a_20240413/"
     mcpc: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF40_20240413/MCPC/"
     partector: "/Users/lakoeh001/AWI/Campaigns/20240403BACSAMII/Daten/Aerosole_AWI/RF40_20240413/Partector/2024_04_13"
-    prefix: "20240414_P6_04a_"
+    prefix: "20240413_P6_04a_"
     tbird: False
     start: 2024-04-13T06:11:00
     stop: 2024-04-13T08:38:00
@@ -181,8 +208,8 @@ flights:
     tbird: True
     start: 2024-04-13T09:45:00
     stop: 2024-04-13T13:45:00
-    start_tbird: 2024-04-13T09:53:00
-    stop_tbird: 2024-04-13T13:28:00
+    start_tbird: 2024-04-13T09:54:00
+    stop_tbird: 2024-04-13T13:26:00
     time_offsets:
       mcpc: -22510
       partector: 0
@@ -213,8 +240,8 @@ flights:
     tbird: True
     start: 2024-04-15T09:03:46
     stop: 2024-04-15T13:41:13
-    start_tbird: 2024-04-15T09:53:10
-    stop_tbird: 2024-04-15T11:49:10
+    start_tbird: 2024-04-15T09:54:00
+    stop_tbird: 2024-04-15T11:46:00
     time_offsets:
       mcpc: -5170
       partector: 0
@@ -264,8 +291,8 @@ flights:
     tbird: True
     start: 2024-04-24T08:26:00
     stop: 2024-04-24T12:56:00
-    start_tbird: 2024-04-24T09:31:00
-    stop_tbird: 2024-04-24T10:25:00
+    start_tbird: 2024-04-24T09:38:00
+    stop_tbird: 2024-04-24T10:24:00
     calibration:
       out1:
         start: 2024-04-24T09:35:31
@@ -294,7 +321,7 @@ flights:
     tbird: True
     start: 2024-04-25T08:28:00
     stop: 2024-04-25T12:35:00
-    start_tbird: 2024-04-25T09:10:00
+    start_tbird: 2024-04-25T09:11:00
     stop_tbird: 2024-04-25T11:58:00
     calibration:
       out1:

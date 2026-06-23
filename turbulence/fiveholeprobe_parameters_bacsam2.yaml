@@ -1,62 +1,62 @@
 noseboom:
   alpha:
-    a0: 0.9124
+    a0: 0.96047
     a1_ps: 0
     a1_qb: 0
     a1_qc: 0
-    a1_qratio: 11.264
+    a1_qratio: 10.76861
   beta:
-    a0: -2.99
+    a0: -2.79
     a1_ps: 0
     a1_qb: 0
     a1_qc: 0
-    a1_qratio: 11.264
+    a1_qratio: 10.76861
   ps:
     a0: 0
     a1_ps: 1
     a1_qb: 0
-    a1_qc: -1.054
+    a1_qc: -0.054
     a1_qratio: 0
   qb:
-    a0: 421.5
+    a0: 0
     a1_ps: 0
     a1_qb: 1
-    a1_qc: -0.128
+    a1_qc: 0
     a1_qratio: 0
   qc:
     a0: 0
     a1_ps: 0
     a1_qb: 0
-    a1_qc: 1.054
+    a1_qc: 1.0547
     a1_qratio: 0
 tbird:
   alpha:
-    a0: -0.379
+    a0: -0.567584
     a1_ps: 0
     a1_qb: 0
     a1_qc: 0
-    a1_qratio: 10.324
+    a1_qratio: 9.97751
   beta:
-    a0: -1.3895
+    a0: -1.38
     a1_ps: 0
     a1_qb: 0
     a1_qc: 0
-    a1_qratio: 10.324
+    a1_qratio: 9.97751
   ps:
     a0: 0
     a1_ps: 1
     a1_qb: 0
-    a1_qc: -1.172
+    a1_qc: -0.2006
     a1_qratio: 0
   qb:
-    a0: 475.7
+    a0: 0
     a1_ps: 0
     a1_qb: 1
-    a1_qc: -0.193
+    a1_qc: 0
     a1_qratio: 0
   qc:
     a0: 0
     a1_ps: 0
     a1_qb: 0
-    a1_qc: 1.172
+    a1_qc: 1.2006
     a1_qratio: 0

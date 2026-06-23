@@ -376,3 +376,87 @@ partector_dms:
       units_old: 1
       units: 1
       comment: see www.naneos.ch/pdf/Partector2_Errors_and_Limits.pdf
+
+kt19:
+
+    t_surface:
+      old: KT19 Serial
+      long_name: surface temperature
+      standard_name: surface_temperature
+      platform: kt19
+      units_old: degC
+      units: K
+
+radiation:
+
+    lw_down:
+      old: Pyrgeo_top.RAD_raw
+      long_name: longwave downward irradiance
+      standard_name: net_downward_longwave_flux_in_air
+      platform: pyrgeometer top
+      units_old: W/m^2
+      units: W/m^2
+      serial: 110384
+      calibration: "2022-08-22"
+
+    t_lw_down:
+      old: Pyrgeo_top.T_raw
+      long_name: pyrgeometer downward body temperature
+      platform: pyrgeometer top
+      units_old: K
+      units: K
+      serial: 110384
+
+    lw_up:
+      old: Pyrgeo_bottom.RAD_raw
+      long_name: longwave upward irradiance
+      standard_name: net_upward_longwave_flux_in_air
+      platform: pyrgeometer bottom
+      units_old: W/m^2
+      units: W/m^2
+      serial: 110385
+      calibration: "2022-09-19"
+
+    t_lw_up:
+      old: Pyrgeo_bottom.T_raw
+      long_name: pyrgeometer upward body temperature
+      platform: pyrgeometer bottom
+      units_old: K
+      units: K
+      serial: 110385
+
+    sw_down:
+      old: Pyrano_top.RAD_raw
+      long_name: shortwave downward irradiance
+      standard_name: net_downward_shortwave_flux_in_air
+      platform: pyranometer top
+      units_old: W/m^2
+      units: W/m^2
+      serial: 110309
+      calibration: "2022-09-29"
+
+    t_sw_down:
+      old: Pyrano_top.T_raw
+      long_name: pyranometer downward body temperature
+      platform: pyranometer top
+      units_old: K
+      units: K
+      serial: 110309
+
+    sw_up:
+      old: Pyrano_bottom.RAD_raw
+      long_name: shortwave upward irradiance
+      standard_name: net_upward_shortwave_flux_in_air
+      platform: pyranometer bottom
+      units_old: W/m^2
+      units: W/m^2
+      serial: 110293
+      calibration: "2022-09-29"
+
+    t_sw_up:
+      old: Pyrano_bottom.T_raw
+      long_name: pyranometer upward body temperature
+      platform: pyranometer bottom
+      units_old: K
+      units: K
+      serial: 110293
