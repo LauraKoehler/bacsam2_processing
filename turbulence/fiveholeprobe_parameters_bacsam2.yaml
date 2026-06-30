@@ -1,16 +1,16 @@
 noseboom:
   alpha:
-    a0: 0.96047
+    a0: 0.9993065489691829
     a1_ps: 0
     a1_qb: 0
     a1_qc: 0
-    a1_qratio: 10.76861
+    a1_qratio: 10.459536575737971
   beta:
-    a0: -2.79
+    a0: -2.8
     a1_ps: 0
     a1_qb: 0
     a1_qc: 0
-    a1_qratio: 10.76861
+    a1_qratio: 10.459536575737971
   ps:
     a0: 0
     a1_ps: 1

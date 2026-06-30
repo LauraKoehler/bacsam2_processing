@@ -213,22 +213,23 @@ mcpc:
       units: 1/m^3
       comment: coincidence corrected concentration
 
-    counts:
-      old: cnt_sec
-      long_name: particle counts per second
-      platform: mCPC
-      units_old: 1/s
-      units: 1/s
-      comment: coincidence corrected concentration
-
-    p_air:
+    p_amb:
       old: pressur
-      long_name: air pressure
-      standard_name: air_pressure
+      long_name: ambient air pressure
+      standard_name: ""
       platform: mCPC
       units_old: mbar
       units: Pa
       comment: ambient pressure at inlet
+
+    t_amb:
+      old: inlttmp
+      long_name: inlet temperature
+      standard_name: ""
+      platform: mCPC
+      units_old: degC
+      units: K
+      comment: ambient temperature at inlet
 
     flow_rate:
       old: smpflow
@@ -263,21 +264,6 @@ partector:
       units_old: nm
       units: m
 
-    ldsa:
-      old: LDSA
-      long_name: lung-deposited surface area concentration
-      platform: partector
-      units_old: um^2/cm^3
-      units: 1/m
-
-    pm0p3:
-      old: mass
-      long_name: mass concentration of PM0.3 ambient aerosol particles in air
-      standard_name: mass_concentration_of_pm0p3_ambient_aerosol_particles_in_air
-      platform: partector
-      units_old: ug/m^3
-      units: kg/m^3
-
     rh:
       old: RH
       long_name: relative humidity
@@ -287,14 +273,23 @@ partector:
       units: 1
       comment: RH inside partector
 
-    p_air:
+    p_amb:
       old: P
       long_name: air pressure
-      standard_name: air_pressure
+      standard_name: ""
       platform: partector
       units_old: mbar
       units: Pa
-      comment: pressure inside partector
+      comment: ambient pressure inside partector
+
+    t_amb:
+      old: T
+      long_name: ambient temperature
+      standard_name: ""
+      platform: partector
+      units_old: degC
+      units: K
+      comment: temperature inside partector
 
     flow_rate:
       old: flow
@@ -329,21 +324,6 @@ partector_dms:
       units_old: nm
       units: m
 
-    ldsa:
-      old: Lung deposited surface area
-      long_name: lung-deposited surface area concentration
-      platform: partector
-      units_old: um^2/cm^3
-      units: 1/m
-
-    pm0p3:
-      old: Particle mass (PM0.3)
-      long_name: mass concentration of PM0.3 ambient aerosol particles in air
-      standard_name: mass_concentration_of_pm0p3_ambient_aerosol_particles_in_air
-      platform: partector
-      units_old: ug/m^3
-      units: kg/m^3
-
     rh:
       old: Internal relative humidity
       long_name: relative humidity
@@ -353,14 +333,23 @@ partector_dms:
       units: 1
       comment: RH inside partector
 
-    p_air:
+    p_amb:
       old: Air pressure
-      long_name: air pressure
-      standard_name: air_pressure
+      long_name: ambient pressure
+      standard_name: ""
       platform: partector
       units_old: mbar
       units: Pa
       comment: pressure inside partector
+
+    t_amb:
+      old: Internal temperature
+      long_name: ambient temperature
+      standard_name: ""
+      platform: partector
+      units_old: degC
+      units: K
+      comment: temperature inside partector
 
     flow_rate:
       old: Approximate flow through device

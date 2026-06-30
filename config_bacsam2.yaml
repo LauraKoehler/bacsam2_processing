@@ -3,6 +3,7 @@ campaign:
   platform: "Polar 6"
   tbird_reversed_antennas: True
   noseboom_twist: 0
+  stp: [mcpc, partector, partector_dms]
 
 paths:
   xml_file: "/Users/lakoeh001/AWI/Programmierung/bacsam2_processing/dms_download_templates/2024_DMS_BacsamII.xml"
