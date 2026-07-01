@@ -1,4 +1,4 @@
-# BACSAM II: Turbulence and aerosol in situ aircraft observations in the Arctic
+# BACSAM II: Turbulence and aerosol in situ aircraft observations in the Arctic with Polar 6 and T-Bird
 
 Processing documentation for the BACSAM II aircraft campaign with Polar 6 in spring 2024.
 
