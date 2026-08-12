@@ -76,10 +76,10 @@ h_rad:
     a1: 101.6260162601626
     a2: 0.0
 
-psN: # checked 20251128: SN 6931473; Calibration sheet 01/09/2023
+psN: # checked 20260812: SN 4999330; Calibration sheet 01/09/2023
 # Volts to physical values from manual: Range: 512 to 1100 HPA/MB equals Nom. Output: 0.1 to 5 VDC; polyfit([0.1, 5],[512, 1100], 1)
 # psN_hPa=500+120*psN_DMS
-  APPLIED_PRESSURE: [512.4,659.03,806.03,953.04,1100.05]
+  APPLIED_PRESSURE: [512.04,659.03,806.03,953.04,1100.05]
   TRANSDUCER_OUTPUT: [0.0997,1.3278,2.5516,3.7744,5.0023]
 
 qaN: # checked 20240718: SN 6937827; Calibration sheet 02/27/2023
