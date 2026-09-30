@@ -449,3 +449,36 @@ radiation:
       units_old: K
       units: K
       serial: 110293
+
+licor:
+    h2o_mole_fraction:
+      old: LICOR72.H2OMF
+      long_name: H2O mole fraction
+      standard_name: mole_fraction_of_water_vapor_in_air
+      platform: licor
+      units_old: umol/mol
+      units: ppm
+
+    h2o_mass_conc:
+      old: LICOR72.H2OG
+      long_name: H2O mass concentration
+      standard_name: mass_concentration_of_water_vapor_in_air
+      platform: licor
+      units_old: g/m^3
+      units: kg/m^3
+
+    co2_mole_fraction:
+      old: LICOR72.CO2MF
+      long_name: CO2 mole fraction
+      standard_name: mole_fraction_of_carbon_dioxide_in_air
+      platform: licor
+      units_old: umol/mol
+      units: ppm
+
+    co2_mole_conc:
+      old: LICOR72.CO2D
+      long_name: CO2 mole concentration
+      standard_name: mole_concentration_of_carbon_dioxide_in_air
+      platform: licor
+      units_old: mmol/m^3
+      units: mol/m^3
